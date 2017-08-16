@@ -13,6 +13,7 @@
 		483395B21F44B318004AD70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483395B11F44B318004AD70A /* Assets.xcassets */; };
 		483395B51F44B318004AD70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483395B31F44B318004AD70A /* LaunchScreen.storyboard */; };
 		483395C01F44B318004AD70A /* Health___Fitness_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483395BF1F44B318004AD70A /* Health___Fitness_TrackerTests.swift */; };
+		483395CB1F44F514004AD70A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483395CA1F44F514004AD70A /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		483395BB1F44B318004AD70A /* Health & Fitness TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health & Fitness TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483395BF1F44B318004AD70A /* Health___Fitness_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health___Fitness_TrackerTests.swift"; sourceTree = "<group>"; };
 		483395C11F44B318004AD70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483395CA1F44F514004AD70A /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				483395AA1F44B318004AD70A /* AppDelegate.swift */,
 				483395AC1F44B318004AD70A /* ViewController.swift */,
+				483395CA1F44F514004AD70A /* TabViewController.swift */,
 				483395AE1F44B318004AD70A /* Main.storyboard */,
 				483395B11F44B318004AD70A /* Assets.xcassets */,
 				483395B31F44B318004AD70A /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483395CB1F44F514004AD70A /* TabViewController.swift in Sources */,
 				483395AD1F44B318004AD70A /* ViewController.swift in Sources */,
 				483395AB1F44B318004AD70A /* AppDelegate.swift in Sources */,
 			);
